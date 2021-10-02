@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="grilla verde, garden block, losas, hormigon, cemento alisado">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contactate con grillaverde</title>
+</head>
+<body>
+    <div class="encabezado">
+        <h1 class="logo"><a href="index.html">grillaverde</a> </h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+                <div class="navbar-nav menu">
+                  <a class="nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="empresa.html">Quienes Somos</a>
+                  <a class="nav-link" href="producto.html">Las Grillas</a>
+                  <a class="nav-link" href="galeria.html">Galería</a>
+                  <a class="nav-link" href="formulario.html">Contactanos</a>
+                </div>
+              </div>
+          </nav>
+    </div>
+    <div class="container-fluid consulta">
+      <h2>Envianos tu consulta</h2>
+        <form class="info" method="GET">
+          <label for="opcion_1">Consulta</label>
+          <input type="radio" name="opciones" value="1" checked>
+          <label for="opcion_2">Presupuesto</label>
+          <input type="radio" name="opciones" value="2">
+          <br>
+          <br>
+          <label>Producto a consultar</label>
+          <select name="producto">
+            <option value="grilla_verde" selected>Grilla Verde</option>
+            <option value="losas">Losas</option>
+            <option value="pisos">Pisos</option>
+            <option value="bloques">Bloques</option>
+          </select>
+          <br>
+          <br>
+          <input type="text" name="nombre" placeholder="Nombre">
+          <br>
+          <input type="telefono" name="telefono" placeholder="Telefono">
+          <br>
+          <input type="text" name="mail" placeholder="Mail">
+          <br>
+          <textarea name="mensaje">Ingresa tu mensaje</textarea>
+          <br>
+          <input type="submit" value="Enviar">
+          <input type="reset" name="limpiar formulario">
+        </form>
+    </div>
+    <div class="pie">
+        <p>Nos encontras en 14 E/ 508 y vías, Gonnet, La Plata, Buenos Aires</p>
+        <p><a href="mailto:: info@galvanconstrucciones.com" target="_blank">Escribinos</a></p>
+        <p><a href="tel: +54 221 484-2780" target="_blank">Llamanos</a></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
