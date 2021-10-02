@@ -1,0 +1,217 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+.encabezado {
+    height: 280px;
+    width: 100%;
+    background: linear-gradient(to right, #5E8B7E, #A7C4BC);
+}
+.logo a {
+    padding: 20px;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+    font-size: 7rem;
+    color: #02475E;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu {
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.menu a {
+    color: #2F5D62 !important;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #02475E !important;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #DFEEEA;
+}
+.main img {
+    width: -webkit-fill-available;
+}
+.empresa {
+    background-color: #DFEEEA;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+.texto {
+    text-align: justify;
+    color: #2F5D62;
+}
+.texto a {
+    text-decoration: underline;
+    color: #2F5D62;
+}
+.presentacion {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #5E8B7E;
+    background-color: #DFEEEA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.presentacion h2 {
+    font-size: 2.5rem;
+    color: #5E8B7E;
+    margin: 20px;
+}
+.variedades {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+}
+.variedades img {
+    height: 300px;
+    width: 500px;
+}
+.variedades li {
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+}
+.productos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #5E8B7E;
+    background-color: #DFEEEA;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.productos p {
+    font-size: 2.5rem;
+    color: #5E8B7E;
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+}
+.table {
+    color: #5E8B7E;
+    width: fit-content;
+}
+.fotos img {
+    height: auto;
+    width: 100%;
+}
+.presentacion p {
+    font-size: 2.5rem;
+    color: #5E8B7E;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.presentacion ol {
+    list-style: none;
+    text-align: center;
+}
+.muestra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 20px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: fixed;
+    top: 200px;
+    bottom: 200px;
+    opacity: 1;
+}
+.consulta {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #5E8B7E;
+    background-color: #DFEEEA;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+.consulta h2 {
+    font-size: 2.5rem;
+    color: #5E8B7E;
+    margin: 1.5rem;
+    font-weight: 700;
+}
+.info {
+    padding: 20px;
+}
+.consulta input, option, textarea, select {
+    color: #2F5D62;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+/* pie de pagina*/
+
+.pie {
+    height: 130px;
+    background: linear-gradient(to left, #5E8B7E, #A7C4BC);
+    font-family: 'Roboto', sans-serif;
+    color: #2F5D62;
+    font-size: 1rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center; 
+}
+.pie p {
+    margin-bottom: 0;
+}
+.pie p a {
+    text-decoration: none;
+    color: #2F5D62;
+}

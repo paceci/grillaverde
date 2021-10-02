@@ -1,0 +1,33 @@
+@media all and (max-width:768px) {
+    .logo a {
+        font-size: 4rem;
+    }
+}
+@media all and (max-width:576px) {
+    .encabezado {
+        height: 180px;
+    }
+    .logo a {
+        font-size: 2rem;
+    }
+    .menu {
+        font-size: 1rem;
+        justify-content: space-evenly;
+    }
+    .navbar {
+        justify-content: flex-end;
+    }
+    .main img {
+        max-width: 300px;
+    }
+    .pie {
+        height: 93px;
+        font-size: 1rem;
+    }
+    .pie a {
+        font-size: 1rem;
+    }
+    .consulta h2 {
+        font-size: 1.5rem;
+    }
+}

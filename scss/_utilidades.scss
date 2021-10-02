@@ -1,0 +1,9 @@
+@mixin titulos ($size-texto,$color-primario) {
+    font-size: $size-texto;
+    color: $color-primario;
+}
+@each $weight in (400, 500, 700) {
+    .font-#{$weight}{
+        font-weight: $weight;
+    }    
+}
