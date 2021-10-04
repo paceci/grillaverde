@@ -81,6 +81,34 @@ body {
   text-decoration: underline;
   color: #2F5D62; }
 
+.registros {
+  height: auto;
+  background-color: #DFEEEA;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; }
+  .registros img {
+    height: 300px;
+    width: 300px;
+    margin: 10px; }
+  .registros img:hover {
+    transform: scalex(1.5); }
+  .registros p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 10px; }
+
+.casos {
+  width: min-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 50px;
+  justify-content: center;
+  align-content: center; }
+
 .presentacion {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
