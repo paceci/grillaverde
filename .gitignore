@@ -32,4 +32,4 @@ logs
 *.zip
 *.sql
 
-node_modelues/
+node_modules/
