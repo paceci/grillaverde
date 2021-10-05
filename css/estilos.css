@@ -88,13 +88,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  padding: 20px; }
   .registros img {
     height: 300px;
-    width: 300px;
-    margin: 10px; }
+    width: 320px;
+    margin: 5px; }
   .registros img:hover {
-    transform: scalex(1.5); }
+    border: orangered solid 2px; }
   .registros p {
     font-size: 1rem;
     text-align: center;
@@ -104,10 +105,14 @@ body {
   width: min-content;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 50px;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
   align-content: center; }
+  .casos h2 {
+    font-size: 2.5rem;
+    color: #5E8B7E;
+    margin: 20px; }
 
 .presentacion {
   font-family: 'Roboto', sans-serif;
@@ -260,7 +265,9 @@ body {
 
 @media all and (max-width: 768px) {
   .logo a {
-    font-size: 4rem; } }
+    font-size: 4rem; }
+  .casos h2 {
+    font-size: 1.7rem; } }
 
 @media all and (max-width: 576px) {
   .encabezado {
@@ -274,10 +281,16 @@ body {
     justify-content: flex-end; }
   .main img {
     max-width: 300px; }
+  .fotos img {
+    height: auto; }
+  .consulta h2 {
+    font-size: 1.5rem; }
+  .texto {
+    font-size: 1rem; }
+  .casos h2 {
+    font-size: 1.5rem; }
   .pie {
     height: 93px;
     font-size: 1rem; }
   .pie a {
-    font-size: 1rem; }
-  .consulta h2 {
-    font-size: 1.5rem; } }
+    font-size: 1rem; } }

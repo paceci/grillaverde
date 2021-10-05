@@ -2,6 +2,9 @@
     .logo a {
         font-size: 4rem;
     }
+    .casos h2 {
+        font-size: 1.7rem;
+    }
 }
 @media all and (max-width:576px) {
     .encabezado {
@@ -20,14 +23,23 @@
     .main img {
         max-width: 300px;
     }
+    .fotos img {
+        height: auto;
+    }
+    .consulta h2 {
+        font-size: 1.5rem;
+    }
+    .texto {
+        font-size: 1rem;
+    }
+    .casos h2 {
+        font-size: 1.5rem;
+    }
     .pie {
         height: 93px;
         font-size: 1rem;
     }
     .pie a {
         font-size: 1rem;
-    }
-    .consulta h2 {
-        font-size: 1.5rem;
     }
 }
