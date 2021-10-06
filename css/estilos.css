@@ -35,7 +35,7 @@ body {
   align-content: center; }
 
 .menu {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.8rem;
   display: flex;
   flex-direction: row;
@@ -226,12 +226,11 @@ body {
   justify-content: flex-start;
   align-content: center;
   align-items: center; }
-
-.consulta h2 {
-  font-size: 2.5rem;
-  color: #5E8B7E;
-  margin: 1.5rem;
-  font-weight: 700; }
+  .consulta h2 {
+    font-size: 2.5rem;
+    color: #5E8B7E;
+    margin: 1.5rem;
+    font-weight: 700; }
 
 .info {
   padding: 20px; }
@@ -255,13 +254,15 @@ body {
   align-content: space-between;
   justify-content: center;
   align-items: center; }
-
-.pie p {
-  margin-bottom: 0; }
-
-.pie p a {
-  text-decoration: none;
-  color: #2F5D62; }
+  .pie img {
+    width: 30px;
+    height: 30px; }
+  .pie p {
+    margin: 15px; }
+  .pie a {
+    text-decoration: none;
+    color: #2F5D62;
+    padding: 20px; }
 
 @media all and (max-width: 768px) {
   .logo a {
@@ -290,7 +291,7 @@ body {
   .casos h2 {
     font-size: 1.5rem; }
   .pie {
-    height: 93px;
+    height: auto;
     font-size: 1rem; }
   .pie a {
     font-size: 1rem; } }
