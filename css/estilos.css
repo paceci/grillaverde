@@ -35,7 +35,7 @@ body {
   align-content: center; }
 
 .menu {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.8rem;
   display: flex;
   flex-direction: row;
@@ -43,13 +43,11 @@ body {
   gap: 10px;
   justify-content: space-evenly;
   align-content: center; }
-
-.menu a {
-  color: #2F5D62 !important;
-  text-decoration: none; }
-
-.menu a:hover {
-  color: #e16b0b !important; }
+  .menu a {
+    color: #2F5D62 !important;
+    text-decoration: none; }
+  .menu a:hover {
+    color: #e16b0b !important; }
 
 .main {
   width: 100%;
@@ -57,13 +55,12 @@ body {
   display: flex;
   justify-content: center;
   padding: 0;
-  background-color: #DFEEEA; }
-
-.main img {
-  width: -webkit-fill-available; }
+  background-color: #dfedeaa3; }
+  .main img {
+    width: -webkit-fill-available; }
 
 .empresa {
-  background-color: #DFEEEA;
+  background-color: #dfedeaa3;
   font-size: 1.5rem;
   line-height: 1.5;
   display: flex;
@@ -77,14 +74,13 @@ body {
 .texto {
   text-align: justify;
   color: #2F5D62; }
-
-.texto a {
-  text-decoration: underline;
-  color: #2F5D62; }
+  .texto a {
+    text-decoration: underline;
+    color: #2F5D62; }
 
 .registros {
   height: auto;
-  background-color: #DFEEEA;
+  background-color: #dfedeaa3;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -103,6 +99,7 @@ body {
     padding: 0 10px; }
 
 .casos {
+  color: #5E8B7E;
   width: min-content;
   display: flex;
   flex-direction: row;
@@ -110,27 +107,31 @@ body {
   gap: 20px;
   justify-content: space-evenly;
   align-content: center; }
-  .casos h2 {
-    font-size: 2.5rem;
-    color: #5E8B7E;
-    margin: 20px; }
 
 .presentacion {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: #5E8B7E;
-  background-color: #DFEEEA;
+  background-color: #dfedeaa3;
+  padding: 15px 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
   align-content: center;
   align-items: center; }
-
-.presentacion h2 {
-  font-size: 2.5rem;
-  color: #5E8B7E;
-  margin: 20px; }
+  .presentacion p {
+    font-size: 2.5rem;
+    color: #5E8B7E;
+    padding: 15px;
+    display: flex;
+    justify-content: center; }
+  .presentacion ol {
+    list-style: square;
+    list-style-position: inside;
+    text-align: center;
+    line-height: 2; }
 
 .variedades {
   display: flex;
@@ -139,36 +140,35 @@ body {
   justify-content: space-around;
   align-content: stretch;
   align-items: center; }
-
-.variedades img {
-  height: 300px;
-  width: 500px; }
-
-.variedades li {
-  font-size: 1.5rem;
-  list-style: none;
-  padding: 15px;
-  text-align: center; }
+  .variedades img {
+    height: 300px;
+    width: 500px; }
+  .variedades li {
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 15px;
+    text-align: center; }
 
 .productos {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: #5E8B7E;
-  background-color: #DFEEEA;
+  background-color: #dfedeaa3;
   width: 100%;
   height: auto;
+  padding: 15px 0;
   display: flex;
+  gap: 20px;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center; }
-
-.productos p {
-  font-size: 2.5rem;
-  color: #5E8B7E;
-  padding: 15px;
-  display: flex;
-  justify-content: center; }
+  .productos p {
+    font-size: 2.5rem;
+    color: #5E8B7E;
+    padding: 15px;
+    display: flex;
+    justify-content: center; }
 
 .table {
   color: #5E8B7E;
@@ -180,23 +180,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center; }
-
-.fotos img {
-  height: 500px;
-  width: 800px !important; }
-
-.presentacion p {
-  font-size: 2.5rem;
-  color: #5E8B7E;
-  padding: 15px;
-  display: flex;
-  justify-content: center; }
-
-.presentacion ol {
-  list-style: square;
-  list-style-position: inside;
-  text-align: center;
-  line-height: 2; }
+  .fotos img {
+    height: 500px;
+    width: 800px !important; }
 
 .muestra {
   display: flex;
@@ -219,7 +205,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #5E8B7E;
-  background-color: #DFEEEA;
+  background-color: #dfedeaa3;
   width: auto;
   height: auto;
   display: flex;
