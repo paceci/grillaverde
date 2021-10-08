@@ -11,23 +11,25 @@
     <title>Productos grillaverde</title>
 </head>
 <body>
-    <div class="encabezado">
-        <h1 class="logo"><a href="index.html">grillaverde</a> </h1>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
-                <div class="navbar-nav menu">
-                  <a class="nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                  <a class="nav-link" href="empresa.html">Quienes Somos</a>
-                  <a class="nav-link" href="producto.html">Las Grillas</a>
-                  <a class="nav-link" href="galeria.html">Galería</a>
-                  <a class="nav-link" href="formulario.html">Contactanos</a>
+  <div class="container-fluid encabezado">
+    <div class="justify-content-lg-center justify-content-md-between justify-content-sm-between">
+        <h1 class="logo"><a href="index.html">grillaverde</a></h1>
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+                    <div class="navbar-nav menu">
+                    <a class="nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="empresa.html">Nosotros</a>
+                    <a class="nav-link" href="producto.html">Las Grillas</a>
+                    <a class="nav-link" href="galeria.html">Galería</a>
+                    <a class="nav-link" href="formulario.html">Contactanos</a>
+                    </div>
                 </div>
-              </div>
-          </nav>
+            </nav>
     </div>
+</div>
     <section>
         <div class="container-fluid productos">
             <p>Tipos de Grillas</p>
@@ -53,7 +55,7 @@
                 </tbody>
               </table>
         </div>
-        <div class=" container-fluid presentacion">
+        <div class="container-fluid presentacion">
             <p>Colocación</p>
                 <ol>
                     <li>Se deberá desmontar el terreno en 10 u 11 cm por debajo del nivel del piso terminado, dejándolo debidamente enrasado y compactado.</li>
@@ -69,25 +71,29 @@
         </div>  
     </section>  
     <div class="container-fluid presentacion"> <!-- Cuerpo: seccion amplia con info de los productos que vende -->
-        <h2>Nuestros Productos</h2>
-        <div class="variedades">
-          <ul class="img-fluid">  
+        <p>Otros Productos</p>
+        <div class="container-fluid">
+          <ul class="variedades">  
             <li>Grilla Verde</li>
-              <img src="imagenes/grilla.jpeg" alt="jardin">
+              <img src="imagenes/grilla.jpeg" class="img-fluid" alt="jardin">
             <li>Losas Pretensadas</li>
-              <img src="imagenes/losa.png" alt="losa">
+              <img src="imagenes/losa.png" class="img-fluid" alt="losa">
             <li>Pisos Industriales</li>
-              <img src="imagenes/pisoindustrial.jpeg" alt="piso">
+              <img src="imagenes/pisoindustrial.jpeg" class="img-fluid" alt="piso">
             <li>Bloques de hormigón vibroprensado</li>
-              <img src="imagenes/bloques.jpeg" alt="bloques">
+              <img src="imagenes/bloques.jpeg" class="img-fluid" alt="bloques">
           </ul>
         </div>         
     </div>
-    <div class="pie">
-        <p>Nos encontras en 14 E/ 508 y vías, Gonnet, La Plata, Buenos Aires</p>
-        <p><a href="mailto:: info@galvanconstrucciones.com" target="_blank">Escribinos</a></p>
-        <p><a href="tel: +54 221 484-2780" target="_blank">Llamanos</a></p>
-    </div>
+    <div class="container-fluid col-12 pie">
+      <p>Nos encontras en 14 E/ 508 y vías, Gonnet, La Plata, Buenos Aires</p>
+      <div class="d-flex-sm-column">
+          <a href="mailto:: info@galvanconstrucciones.com" target="_blank"><img src="imagenes/email.png" alt="info@galvanconstrucciones.com"></a>
+          <a href="tel: +54 221 484-2780" target="_blank"><img src="imagenes/llamada-telefonica.png" alt="+54 221 484-2780"></a>
+          <a href="https://www.instagram.com/grilla.verde/" target="blank"><img src="imagenes/instagram.png" alt="@grilla.verde"></a>
+      </div>
+      <p>Desarrollado por MCPA</p>
+  </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

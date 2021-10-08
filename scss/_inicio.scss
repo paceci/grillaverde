@@ -9,12 +9,12 @@ body {
 
 }
 .encabezado {
-    height: 280px;
+    height: 210px;
     width: 100%;
     background: whitesmoke;
 }
 .logo a {
-    padding: 20px;
+    padding: 5px;
     font-family: 'Bodoni Moda', serif;
     font-weight: 700;
     font-size: 7rem;
@@ -33,6 +33,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 10px;
     justify-content: space-evenly;
     align-content: center;
 }
@@ -173,7 +174,6 @@ body {
     width: fit-content;
 }
 .fotos {
-    background-color: whitesmoke;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -192,8 +192,10 @@ body {
     justify-content: center;
 }
 .presentacion ol {
-    list-style: none;
+    list-style: square;
+    list-style-position: inside;
     text-align: center;
+    line-height: 2;
 }
 .muestra {
     display: flex;
@@ -235,6 +237,12 @@ body {
  
 .info {
     padding: 20px;
+    .fondoBoton {
+        background-color: whitesmoke;
+    }
+    .btn-outline-secondary:hover{
+            color: #e16b0b;
+    }
 }
 .consulta input, option, textarea, select {
     color: #2F5D62;
@@ -245,7 +253,7 @@ body {
 /* pie de pagina*/
 
 .pie {
-    height: 130px;
+    height: 190px;
     background: whitesmoke;
     font-family: 'Roboto', sans-serif;
     color: #2F5D62;

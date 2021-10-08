@@ -8,10 +8,13 @@
 }
 @media all and (max-width:576px) {
     .encabezado {
-        height: 180px;
+        height: 220px;
+        .row {
+            justify-content: space-between;
+        }
     }
     .logo a {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .menu {
         font-size: 1rem;
@@ -21,7 +24,7 @@
         justify-content: flex-end;
     }
     .main img {
-        max-width: 300px;
+        width: 100%;
     }
     .fotos img {
         height: auto;

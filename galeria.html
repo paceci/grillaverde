@@ -10,43 +10,51 @@
     <title>Galeria de fotos grillaverde</title>
 </head>
 <body>
-    <div class="encabezado">
-        <h1 class="logo"><a href="index.html">grillaverde</a> </h1>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
-                <div class="navbar-nav menu">
-                  <a class="nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                  <a class="nav-link" href="empresa.html">Quienes Somos</a>
-                  <a class="nav-link" href="producto.html">Las Grillas</a>
-                  <a class="nav-link" href="galeria.html">Galería</a>
-                  <a class="nav-link" href="formulario.html">Contactanos</a>
-                </div>
-              </div>
-          </nav>
+    <div class="container-fluid encabezado">
+        <div class="justify-content-lg-center justify-content-md-between justify-content-sm-between">
+            <h1 class="logo"><a href="index.html">grillaverde</a></h1>
+                <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+                        <div class="navbar-nav menu">
+                        <a class="nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="empresa.html">Nosotros</a>
+                        <a class="nav-link" href="producto.html">Las Grillas</a>
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                        <a class="nav-link" href="formulario.html">Contactanos</a>
+                        </div>
+                    </div>
+                </nav>
+        </div>
     </div>
-    <div class="container-fluid fotos">
+    <div class="container-fluid col-md-12 col-lg-7 fotos">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagenes/jardin.jpeg" class="d-block w-100" alt="grilla en jardin">
+                    <img src="imagenes/jardin.jpeg" class="d-block w-100 img-fluid" alt="grilla en jardin">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/pasto2.jpeg" class="d-block w-100" alt="grilla en club">
+                    <img src="imagenes/pasto2.jpeg" class="d-block w-100 img-fluid" alt="grilla en club">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/auto.jpeg" class="d-block w-100" alt="grilla en estacionamiento">
+                    <img src="imagenes/auto.jpeg" class="d-block w-100 img-fluid" alt="grilla en estacionamiento">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/Grilla3.jpg" class="d-block w-100" alt="grilla en camino peatonal">
+                    <img src="imagenes/Grilla3.jpg" class="d-block w-100 img-fluid" alt="grilla en camino peatonal">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/Grilla1.jpg" class="d-block w-100" alt="zamping levantando grillas">
+                    <img src="imagenes/Grilla1.jpg" class="d-block w-100 img-fluid" alt="zamping levantando grillas">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/cesped2.jpg" class="d-block w-100" alt="zamping levantando grillas">
+                    <img src="imagenes/cesped2.jpg" class="d-block w-100 img-fluid" alt="cesped">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/grilla30.jpg" class="d-block w-100 img-fluid" alt="diseño de grilla">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/grilla31.jpg" class="d-block w-100 img-fluid" alt="diseño de grilla">
                 </div>
             </div>
             </div>
@@ -61,10 +69,14 @@
             </div>
         </div>
     </div>
-    <div class="pie">
+    <div class="container-fluid col-12 pie">
         <p>Nos encontras en 14 E/ 508 y vías, Gonnet, La Plata, Buenos Aires</p>
-        <p><a href="mailto:: info@galvanconstrucciones.com" target="_blank">Escribinos</a></p>
-        <p><a href="tel: +54 221 484-2780" target="_blank">Llamanos</a></p>
+        <div class="d-flex-sm-column">
+            <a href="mailto:: info@galvanconstrucciones.com" target="_blank"><img src="imagenes/email.png" alt="info@galvanconstrucciones.com"></a>
+            <a href="tel: +54 221 484-2780" target="_blank"><img src="imagenes/llamada-telefonica.png" alt="+54 221 484-2780"></a>
+            <a href="https://www.instagram.com/grilla.verde/" target="blank"><img src="imagenes/instagram.png" alt="@grilla.verde"></a>
+        </div>
+        <p>Desarrollado por MCPA</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
