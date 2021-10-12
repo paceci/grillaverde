@@ -182,7 +182,8 @@ body {
   align-content: center; }
   .fotos img {
     height: 500px;
-    width: 800px !important; }
+    width: 800px !important;
+    justify-content: center; }
 
 .muestra {
   display: flex;
