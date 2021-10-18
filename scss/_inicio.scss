@@ -6,25 +6,24 @@
 body {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
-
 }
 .encabezado {
     height: 210px;
     width: 100%;
-    background: whitesmoke;
+    background-image:url(../imagenes/cesped23.png);
+    background-position:bottom;
 }
-.logo a {
+.logo {
     padding: 5px;
     font-family: 'Bodoni Moda', serif;
     font-weight: 700;
-    font-size: 7rem;
-    color: #02475E;
+    font-size: 6rem;
+    color: $color-logo;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+}
+.logo:hover {
+    color: $color-borde-imagen !important;
+    text-decoration: none;
 }
 
 .menu {
@@ -46,6 +45,9 @@ body {
 }
 .card {
     width: 18rem;
+}
+.card-img-top {
+    height: 18rem;
 }
 .main {
     height: auto;
