@@ -218,10 +218,9 @@ body {
     }
 }
 .consulta {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #5E8B7E;
-    background-color: $color-fondo-secciones;
+    padding: 10px;
     width: auto;
     height: auto;
     display: flex;
@@ -250,6 +249,20 @@ body {
     color: #2F5D62;
     margin: 10px;
     border-radius: 3px;
+}
+.btn-outline-secondary:hover {
+    color: #2F5D62;
+    background-color: $color-borde-imagen;
+}
+.btn-secondary, .btn-outline-secondary {
+    background-color: $color-fondo-secciones;
+    color: $color-primario;
+}
+.btn-secondary:hover {
+    background-color: #e16b0b;
+}
+.colorModal {
+    color: $color-primario;
 }
 
 /* pie de pagina*/

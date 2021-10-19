@@ -35,42 +35,49 @@
         </li>
       </ul>
     </div>
-</nav>
-    <div class="container-fluid consulta">
+  </nav>
+    <div class="container-fluid consulta col-10 col-lg-6 my-3">
       <h2>Envianos tu consulta</h2>
-        <form class="info" method="GET">
-          <label for="opcion_1">Consulta</label>
-          <input type="radio" name="opciones" value="1" checked>
-          <label for="opcion_2">Presupuesto</label>
-          <input type="radio" name="opciones" value="2">
-          <br>
-          <br>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Producto a consultar</label>
-            <select name="producto">
-              <option value="grilla_verde" selected>Grilla Verde</option>
-              <option value="losas">Losas</option>
-              <option value="pisos">Pisos</option>
-              <option value="bloques">Bloques</option>
-            </select>
+      <form>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+          <label class="form-check-label" for="inlineRadio1">Consulta</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Presupuesto</label>
+        </div>
+        <select class="custom-select">
+          <option selected>Seleccioná el poroducto</option>
+          <option value="grilla_verde">Grilla Verde</option>
+          <option value="losas">Losas</option>
+          <option value="pisos">Pisos</option>
+          <option value="bloques">Bloques</option>
+        </select>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre">
           </div>
-          <br>
-          <br>
-          <input type="text" name="nombre" placeholder="Nombre">
-          <br>
-          <input type="telefono" name="telefono" placeholder="Telefono">
-          <br>
-          <input type="text" name="mail" placeholder="Mail">
-          <br>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Dejanos tu consulta.</textarea>
-          <br>
-          <button type="button" class="btn btn-outline-secondary fondoBoton" data-toggle="modal" data-target="#exampleModal">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+        </div>      
+        <div class="mb-3">
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Dejanos tu consulta" rows="3"></textarea>
+        </div>
+        <div class="row justify-content-end">
+          <button type="button" class="btn btn-outline-secondary fondoBoton mx-4" data-toggle="modal" data-target="#exampleModal">
             Enviar
           </button>
           <button type="reset" class="btn btn-outline-secondary fondoBoton" data-target="Limpiar formulario">
             Borrar
           </button>
-        </form>
+      </div>
+      </form>
     </div>
     <div class="container-fluid col-12 pie">
       <p>Nos encontras en 14 E/ 508 y vías, Gonnet, La Plata, Buenos Aires</p>
@@ -84,7 +91,7 @@
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
-      <div class="modal-content borde--rojo">
+      <div class="modal-content colorModal">
           <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Gracias por contactarnos!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
