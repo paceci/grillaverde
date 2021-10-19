@@ -15,52 +15,63 @@
     <title>Somos grillaverde</title>
 </head>
 <body>
-    <div class="container-fluid encabezado">
-        <div class="justify-content-lg-center justify-content-md-between justify-content-sm-between">
-            <h1 class="logo"><a href="index.html">grillaverde</a></h1>
-                <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
-                        <div class="navbar-nav menu">
-                        <a class="nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                        <a class="nav-link" href="empresa.html">Nosotros</a>
-                        <a class="nav-link" href="producto.html">Las Grillas</a>
-                        <a class="nav-link" href="galeria.html">Galería</a>
-                        <a class="nav-link" href="formulario.html">Contactanos</a>
-                        </div>
-                    </div>
-                </nav>
+    <nav class="navbar navbar-expand-lg navbar-light flex-sm-column flex-md-row encabezado">
+        <a class="logo" href="index.html">grillaverde</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+          <ul class="navbar-nav menu">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="empresa.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="producto.html">Las Grillas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="formulario.html">Contactanos</a>
+            </li>
+          </ul>
         </div>
-    </div>
+    </nav>
     <div class="container-fluid empresa">
         <div class="row">
-            <img src="imagenes/logoGalvanVerde.png" class="container-fluid" alt="Galvan Construcciones">
+            <img src="imagenes/logoGalvanVerde.png" class="container-fluid m-3 p-3" alt="Galvan Construcciones">
         </div>
-        <article>
-            <p class="texto">Somos <a href="https://galvanconstrucciones.com" target="blank">Galván Construcciones</a>, una empresa con 50 años de trayectoria en construcción en viviendas y edificios industriales que se orienta hacia la especialización en pocos rubros para lograr mayor eficiencia y mejorar la fórmula calidad/precio/tiempo. Apoyándonos en nuevas tecnologías y productos, proveemos asesoramiento, materiales y obras terminadas con un equipo especialmente capacitado. Gracias al apoyo de nuestros clientes y al crecimiento constante de este método constructivo desarrollamos productos y nuevas técnicas innovadores de fabricación, que junto con potentes máquinas de vibrado y prensado arrojan como resultado un producto de máxima calidad tanto en resistencia y durabilidad como en dimensiones y textura.</p>
+        <article class="texto">
+            <p>Somos <a href="https://galvanconstrucciones.com" target="blank">Galván Construcciones</a>, una empresa con 50 años de trayectoria en construcción en viviendas y edificios industriales que se orienta hacia la especialización en pocos rubros para lograr mayor eficiencia y mejorar la fórmula calidad/precio/tiempo.</p>
+            <p>Apoyándonos en nuevas tecnologías y productos, proveemos asesoramiento, materiales y obras terminadas con un equipo especialmente capacitado.</p>
+            <p>Gracias al apoyo de nuestros clientes y al crecimiento constante de este método constructivo desarrollamos productos y nuevas técnicas innovadores de fabricación, que junto con potentes máquinas de vibrado y prensado arrojan como resultado un producto de máxima calidad tanto en resistencia y durabilidad como en dimensiones y textura.</p>
         </article>
     </div>
-    <div class="container-fluid registros">
-        <div class="container-fluid casos">
-            <h1>Experiencias</h1>
-            <div class="row flex-lg-nowrap col-md-10 col-lg-12">
-                <img src="imagenes/Grilla8.jpg" class="container-fluid wow animate__animated animate__zoomIn" alt="grilla en club de golf">        
-                <article>
-                    <p class="texto">Creamos pasos de circulación cómodos, hechas especialmente para utilizar en zonas al aire libre de circulacion contínua.</p>
-                </article>
-                    <img src="imagenes/Grilla10.jpg" class="container-fluid wow animate__animated animate__zoomIn" alt="grilla en club de rugby">
-                <article>
-                    <p class="texto">Especialmente diseñadas, brindan funcionalidad, buena terminación y convierten las zonas de tránsito en caminos amigables.</p>
-                </article>
-                    <img src="imagenes/grilla20.jpeg" class="container-fluid wow animate__animated animate__zoomIn" alt="grilla en uso">        
-                <article>
-                    <p class="texto">De fácil colocación y mantenimiento, pueden ser instaladas en pocas horas y, dependiendo del tamaño de la zona aplicada, utilizados en el dia.</p>
-                </article>
+    <div class="container-fluid d-flex flex-column flex-md-row flex-lg-row flex-sm-wrap align-items-center justify-content-around p-3 casos">
+        <div class="card text-center">
+            <img src="imagenes/Grilla8.jpg" class="card-img-top" alt="grilla en club de golf">
+            <div class="card-body">
+            <p class="card-text">Creamos pasos de circulación cómodos, hechas especialmente para utilizar en zonas al aire libre de circulacion contínua.</p>
+            </div>
+        </div>
+        <div class="card text-center">
+            <img src="imagenes/Grilla10.jpg" class="card-img-top" alt="grilla en club de rugby">
+            <div class="card-body">
+            <p class="card-text">Especialmente diseñadas, brindan funcionalidad, buena terminación y convierten las zonas de tránsito en caminos amigables.</p>
+            </div>
+        </div>
+        <div class="card text-center">
+            <img src="imagenes/grilla20.jpeg" class="card-img-top" alt="grilla en uso">
+            <div class="card-body">
+            <p class="card-text">De fácil colocación y mantenimiento, pueden ser instaladas en pocas horas y, dependiendo del tamaño de la zona aplicada, utilizados en el dia.</p>
             </div>
         </div>
     </div>
+
+      
     <div class="container-fluid col-12 pie">
         <p>Nos encontras en 14 E/ 508 y vías, Gonnet, La Plata, Buenos Aires</p>
         <div class="d-flex-sm-column">

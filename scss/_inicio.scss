@@ -70,16 +70,17 @@ body {
         }
 } 
 .empresa {
-    background-color: $color-fondo-secciones;
     font-size: 1.5rem;
     line-height: 1.5;
     display: flex;
     flex-direction: row;
-    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     padding: 20px;
+    h1 {
+        color: #5E8B7E;
+    }
 }
 .texto {
     text-align: justify;
@@ -113,20 +114,16 @@ body {
         }
 }
 .casos {
-    color: #5E8B7E;
-    width: min-content;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-evenly;
-    align-content: center;
+    gap: 30px;
+    .card:hover {
+        border: orangered solid 2px;
+    }
+
 }
 .presentacion {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #5E8B7E;
-    background-color: $color-fondo-secciones;
     padding: 15px 0;
     display: flex;
     flex-direction: column;
@@ -174,7 +171,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #5E8B7E;
-    background-color: $color-fondo-secciones;
     width: 100%;
     height: auto;
     padding: 15px 0;
@@ -220,15 +216,6 @@ body {
     img:hover {
         border: orangered solid 2px;
     }
-}
-.carousel-control-next, .carousel-control-prev {
-    position: fixed;
-    top: 200px;
-    bottom: 200px;
-    opacity: 1;
-}
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: $color-borde-imagen;
 }
 .consulta {
     font-family: 'Roboto', sans-serif;
