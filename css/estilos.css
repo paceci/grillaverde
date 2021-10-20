@@ -114,7 +114,7 @@ body {
 .casos {
   color: #5E8B7E;
   gap: 30px;
-  height: 60%; }
+  height: 580px; }
   .casos .card:hover {
     border: orangered solid 2px; }
 
@@ -278,7 +278,7 @@ body {
   .logo {
     font-size: 4rem; }
   .casos {
-    height: 170%; }
+    height: auto; }
   .casos h2 {
     font-size: 1.7rem; } }
 
@@ -305,7 +305,7 @@ body {
     width: 100%;
     height: auto; }
   .casos {
-    height: 250%; }
+    height: auto; }
   .fotos img {
     height: auto; }
   .consulta h2 {
