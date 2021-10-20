@@ -114,7 +114,9 @@ body {
         }
 }
 .casos {
+    color: $color-primario;
     gap: 30px;
+    height: 60%;
     .card:hover {
         border: orangered solid 2px;
     }
