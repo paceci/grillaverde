@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Productos grillaverde</title>
 </head>
 <body>
@@ -37,53 +41,56 @@
     </div>
   </nav>
   <section>
-      <div class="container-fluid border text-center empresa texto p-0">
+      <div class="container-fluid flex-column text-center empresa texto p-0 my-2">
         <h1>Tipos de Grillas</h1>
-          <p>Las grillas son un complemento ideal para los parques y espacios verdes. Son una estructura de hormigón vibro prensado con forma de cuadrícula, cuyos orificios permiten el paso del césped.</p>
-          <p>Es ideal para ingresos a cocheras, para cubrir senderos formados naturalmente y caminos de ingreso. Produce el agradable efecto visual del verde y a la vez brinda una excelente firmeza al terreno y mejora la transitabilidad. Es de muy fácil aplicación y permite el tránsito inmediato.</p>
+          <div class="container-fluid d-flex flex-column flex-lg-row col-lg-10 text-left align-items-center">
+            <p>Las grillas son un complemento ideal para los parques y espacios verdes. Son una estructura de hormigón vibro prensado con forma de cuadrícula, cuyos orificios permiten el paso del césped. Es ideal para ingresos a cocheras, para cubrir senderos formados naturalmente y caminos de ingreso.Produce el agradable efecto visual del verde y a la vez brinda una excelente firmeza al terreno y mejora la transitabilidad. Es de muy fácil aplicación y permite el tránsito inmediato.</p>
+            <img src="imagenes/medidas.jpg" alt="medidas de una grilla">
+          </div>
       </div>
-      <div class="container-fluid border productos">
+      <div class="container-fluid productos">
         <h1>Modelos</h1>
-          <table class="table col-8">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">Medidas</th>
-                  <th scope="col">Peso</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Tradicionales</th>
-                  <td>31,5 x 52,5 x 8 cm de alto</td>
-                  <td>16,5 kg</td>
-                </tr>
-                <tr>
-                  <th scope="row">Reforzadas</th>
-                  <td>33 x 50 x 10 cm de alto</td>
-                  <td>19 kg</td>
-                </tr>
-              </tbody>
+          <div class="container-fluid d-flex flex-column flex-lg-row col-lg-10 text-left justify-content-around align-items-center">
+            <table class="table col-8">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Medidas</th>
+                    <th scope="col">Peso</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Tradicionales</th>
+                    <td>31,5 x 52,5 x 8 cm de alto</td>
+                    <td>16,5 kg</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Reforzadas</th>
+                    <td>33 x 50 x 10 cm de alto</td>
+                    <td>19 kg</td>
+                  </tr>
+                </tbody>
             </table>
+            <img src="imagenes/fotocolocacion.jpeg" alt="como colocar las grillas">
+            </div>
       </div>
-      <div class="container-fluid border presentacion p-3">
+      <div class="container-fluid presentacion text-lg-left align-items-center p-3">
           <h1>Colocación</h1>
+            <div class="container-fluid d-flex flex-column flex-lg-row col-lg-10">
               <ol>
                   <li>Se deberá desmontar el terreno en 10 u 11 cm por debajo del nivel del piso terminado, dejándolo debidamente enrasado y compactado.</li>
                   <li>Luego se extiende una capa de arena de e/ 2 y 3 cm distribuyéndola con una regla sobre dos listones de aproximadamente 2,5 cm de espesor.</li>
                   <li>A continuación se colocan los bloques sobre la arena extendida, alineados con hilo (sin golpearlos).</li>
                   <li>Para terminar, se rellenan totalmente las cavidades de los bloques con una mezcla en partes iguales de arena, tierra negra y semillas de césped, a razón de 30 gr por m2. Esta mezcla, luego de colocada, se moja abundantemente para que baje y quede así, debajo del nivel de ßtránsito.</li>
               </ol>
-              <div class="container-fluid muestra">
-                  <img src="imagenes/medidas.jpg" alt="medidas de una grilla">
-                  <img src="imagenes/fotocolocacion.jpeg" alt="como colocar las grillas">
-                  <iframe width="300" height="300" src="https://www.youtube.com/embed/hIQo0pcCpAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
+              <iframe width="300" height="225" src="https://www.youtube.com/embed/hIQo0pcCpAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
       </div>  
   </section>  
   <h1 class="presentacion">Otros Productos</h1>
   <div class="container-fluid"> <!-- Cuerpo: seccion amplia con info de los productos que vende -->
-    <div class="texto container-fluid d-flex flex-column flex-md-row flex-lg-row flex-sm-wrap align-items-center align-items-md-start justify-content-around p-3 casos">
+    <div class="texto wow animate__animated animate__zoomIn container-fluid d-flex flex-column flex-md-row flex-lg-row flex-sm-wrap align-items-center align-items-md-start justify-content-around p-3 casos" data-wow-duration="2s">
       <div class="card text-center">
         <img src="imagenes/losa.png" class="card-img-top" alt="losa">
         <div class="card-body">
@@ -116,5 +123,9 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="wow.min.js"></script>
+              <script>
+                new WOW().init();
+              </script>
 </body>
 </html>

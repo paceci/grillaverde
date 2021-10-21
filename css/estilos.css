@@ -139,7 +139,7 @@ body {
   .presentacion ol {
     list-style: square;
     list-style-position: inside;
-    text-align: center;
+    text-align: left;
     line-height: 2; }
 
 .variedades {

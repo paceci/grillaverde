@@ -120,7 +120,6 @@ body {
     .card:hover {
         border: orangered solid 2px;
     }
-
 }
 .presentacion {
     font-family: 'Roboto', sans-serif;
@@ -144,7 +143,7 @@ body {
         ol {
             list-style: square;
             list-style-position: inside;
-            text-align: center;
+            text-align: left;
             line-height: 2;
         }
 } 
