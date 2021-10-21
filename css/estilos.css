@@ -55,24 +55,8 @@ body {
 .card-img-top {
   height: 18rem; }
 
-.main {
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 30px;
-  padding: 30px;
-  background-color: #dfedeaa3; }
-  .main img {
-    width: 250px;
-    height: 250px; }
-  .main img:hover {
-    border: #e16b0b solid 2px; }
-  .main a {
-    color: #02475e;
-    font-size: 1.5rem; }
-
 .empresa {
+  color: #5E8B7E;
   font-size: 1.5rem;
   line-height: 1.5;
   display: flex;
@@ -86,30 +70,10 @@ body {
 
 .texto {
   text-align: justify;
-  color: #2F5D62; }
+  color: #5E8B7E; }
   .texto a {
     text-decoration: underline;
     color: #2F5D62; }
-
-.registros {
-  height: auto;
-  background-color: #dfedeaa3;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  padding: 20px; }
-  .registros img {
-    height: 300px;
-    width: 320px;
-    margin: 5px; }
-  .registros img:hover {
-    border: #e16b0b solid 2px; }
-  .registros p {
-    font-size: 1rem;
-    text-align: center;
-    padding: 0 10px; }
 
 .casos {
   color: #5E8B7E;
@@ -141,24 +105,6 @@ body {
     list-style-position: inside;
     text-align: left;
     line-height: 2; }
-
-.variedades {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: stretch;
-  align-items: center; }
-  .variedades img {
-    height: 300px;
-    width: 500px; }
-  .variedades img:hover {
-    border: orangered solid 2px; }
-  .variedades li {
-    font-size: 1.5rem;
-    list-style: none;
-    padding: 15px;
-    text-align: center; }
 
 .productos {
   font-family: 'Roboto', sans-serif;
@@ -194,16 +140,6 @@ body {
     width: 400px !important;
     justify-content: center; }
   .fotos img:hover {
-    border: orangered solid 2px; }
-
-.muestra {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: center;
-  gap: 20px; }
-  .muestra img:hover {
     border: orangered solid 2px; }
 
 .consulta {
@@ -278,9 +214,7 @@ body {
   .logo {
     font-size: 4rem; }
   .casos {
-    height: auto; }
-  .casos h2 {
-    font-size: 1.7rem; } }
+    height: auto; } }
 
 @media all and (max-width: 576px) {
   .encabezado {
@@ -301,9 +235,6 @@ body {
     align-items: flex-end; }
   .navbar {
     justify-content: space-between; }
-  .main img {
-    width: 100%;
-    height: auto; }
   .casos {
     height: auto; }
   .fotos img {
@@ -312,8 +243,6 @@ body {
     font-size: 1.5rem; }
   .texto {
     font-size: 1rem; }
-  .casos h2 {
-    font-size: 1.5rem; }
   .pie {
     height: auto;
     font-size: .5rem; }

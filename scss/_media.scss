@@ -5,9 +5,6 @@
     .casos {
         height: auto;
     }
-    .casos h2 {
-        font-size: 1.7rem;
-    }
 }
 @media all and (max-width:576px) {
     .encabezado {
@@ -33,10 +30,6 @@
     .navbar {
         justify-content: space-between;
     }
-    .main img {
-        width: 100%;
-        height: auto;
-    }
     .casos {
         height: auto;
     }
@@ -48,9 +41,6 @@
     }
     .texto {
         font-size: 1rem;
-    }
-    .casos h2 {
-        font-size: 1.5rem;
     }
     .pie {
         height: auto;
