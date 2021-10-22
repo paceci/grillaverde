@@ -158,14 +158,15 @@ body {
     font-size: 2.5rem;
     color: #5E8B7E;
     margin: 1.5rem;
-    font-weight: 700; }
+    font-weight: 500; }
 
 .info {
   padding: 20px; }
   .info .fondoBoton {
     background-color: whitesmoke; }
   .info .btn-outline-secondary:hover {
-    color: #e16b0b; }
+    background-color: #e16b0b;
+    color: #fff; }
 
 .consulta input, option, textarea, select {
   color: #2F5D62;

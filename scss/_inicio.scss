@@ -160,7 +160,7 @@ body {
         font-size: 2.5rem;
         color: #5E8B7E;
         margin: 1.5rem;
-        font-weight: 700;
+        font-weight: 500;
     }
 }
 .info {
@@ -169,7 +169,8 @@ body {
             background-color: whitesmoke;
         }
         .btn-outline-secondary:hover{
-                color: #e16b0b;
+                background-color: #e16b0b;
+                color: #fff;
         }
 }
 .consulta input, option, textarea, select {
