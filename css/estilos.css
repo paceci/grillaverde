@@ -77,7 +77,8 @@ body {
 
 .casos {
   color: #5E8B7E;
-  gap: 30px; }
+  gap: 30px;
+  height: 580px; }
   .casos .card:hover {
     border: orangered solid 2px; }
 
@@ -213,9 +214,8 @@ body {
 @media all and (max-width: 768px) {
   .logo {
     font-size: 4rem; }
-  /*.casos {
-        height: auto;
-    }*/ }
+  .casos {
+    height: auto; } }
 
 @media all and (max-width: 576px) {
   .encabezado {
@@ -236,9 +236,8 @@ body {
     align-items: flex-end; }
   .navbar {
     justify-content: space-between; }
-  /*.casos {
-        height: auto;
-    }*/
+  .casos {
+    height: auto; }
   .fotos img {
     height: auto; }
   .consulta h2 {
