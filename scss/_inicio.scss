@@ -11,7 +11,7 @@ body {
     height: 210px;
     width: 100%;
     background-image:url(../imagenes/cesped23.png);
-    background-position:bottom;
+    background-position: bottom;
 }
 .logo {
     padding: 5px;
@@ -25,7 +25,6 @@ body {
     color: $color-borde-imagen !important;
     text-decoration: none;
 }
-
 .menu {
     font-weight: 400;
     font-size: 1.8rem;
@@ -62,6 +61,11 @@ body {
     h1 {
         color: #5E8B7E;
     }
+    .marca {
+        width: 11rem;
+        margin: 10px;
+        border: none;
+    }
 }
 .texto {
     text-align: justify;
@@ -75,13 +79,21 @@ body {
     color: $color-primario;
     gap: 30px;
     height: 580px;
-    .card:hover {
-        border: orangered solid 2px;
+    .card {
+        transition: all .3s ease-in-out;
+        opacity: .8;
     }
+    .card:hover {
+        /*border: orangered solid 2px;*/
+        box-shadow: 0 0 4px #e16b0b;
+        opacity: 1;
+    }
+
 }
 .presentacion {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: $size-texto;
     color: #5E8B7E;
     padding: 15px 0;
     display: flex;
@@ -107,7 +119,8 @@ body {
 } 
 .productos {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: $size-texto;
     color: #5E8B7E;
     width: 100%;
     height: auto;
