@@ -149,9 +149,11 @@ body {
   .fotos img {
     height: 300px;
     width: 400px !important;
-    justify-content: center; }
+    justify-content: center;
+    opacity: 0.8; }
   .fotos img:hover {
-    border: orangered solid 2px; }
+    box-shadow: 0 0 4px #e16b0b;
+    opacity: 1; }
 
 .consulta {
   font-weight: 500;
