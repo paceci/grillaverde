@@ -82,12 +82,11 @@ body {
 .casos {
   color: #5E8B7E;
   gap: 30px;
-  height: 580px; }
+  height: auto; }
   .casos .card {
     transition: all .3s ease-in-out;
     opacity: .8; }
   .casos .card:hover {
-    /*border: orangered solid 2px;*/
     box-shadow: 0 0 4px #e16b0b;
     opacity: 1; }
 
@@ -236,7 +235,7 @@ body {
     .encabezado .row {
       justify-content: space-between; }
   .logo {
-    font-size: 2rem; }
+    font-size: 3.5rem; }
   .menu {
     font-size: 1rem;
     line-height: 0.8;
