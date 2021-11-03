@@ -58,18 +58,19 @@ body {
 .empresa {
   color: #5E8B7E;
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 2;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  align-items: center;
   padding: 20px; }
   .empresa h1 {
     color: #5E8B7E; }
   .empresa .marca {
     width: 11rem;
-    margin: 10px;
+    margin: 30px;
     border: none; }
 
 .texto {
@@ -227,7 +228,9 @@ body {
   .logo {
     font-size: 4rem; }
   .casos {
-    height: auto; } }
+    height: auto; }
+  .menu {
+    font-size: 1.5rem; } }
 
 @media all and (max-width: 576px) {
   .encabezado {
@@ -235,7 +238,7 @@ body {
     .encabezado .row {
       justify-content: space-between; }
   .logo {
-    font-size: 2rem; }
+    font-size: 3rem; }
   .menu {
     font-size: 1rem;
     line-height: 0.8;
