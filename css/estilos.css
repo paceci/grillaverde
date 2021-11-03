@@ -119,6 +119,9 @@ body {
     text-align: left;
     line-height: 2; }
 
+.videos {
+  gap: 20px; }
+
 .productos {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
