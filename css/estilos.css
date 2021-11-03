@@ -26,7 +26,7 @@ body {
   padding: 5px;
   font-family: 'Bodoni Moda', serif;
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 5rem;
   color: #02475e;
   text-decoration: none; }
 
@@ -228,8 +228,6 @@ body {
     padding: 20px; }
 
 @media all and (min-width: 992px) {
-  .logo {
-    font-size: 4rem; }
   .menu {
     font-size: 1.4rem;
     gap: 0; } }
