@@ -1,3 +1,13 @@
+@media all and (min-width:992px) {
+    .logo {
+        font-size: 4rem;
+    }
+    .menu {
+        font-size: 1.4rem;
+        gap: 0;
+    }
+}
+
 @media all and (max-width:768px) {
     .logo {
         font-size: 4rem;
@@ -17,7 +27,7 @@
         }
     }
     .logo {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .menu {
         font-size: 1rem;
@@ -38,6 +48,9 @@
     }
     .fotos img {
         height: auto;
+    }
+    .presentacion, .productos {
+        font-size: 1rem;
     }
     .consulta h2 {
         font-size: 1.5rem;
