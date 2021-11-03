@@ -48,6 +48,9 @@ body {
     text-decoration: none; }
   .menu a:hover {
     color: #e16b0b !important; }
+  .menu .active {
+    color: #02475e !important;
+    font-weight: 500; }
 
 .card {
   width: 18rem; }

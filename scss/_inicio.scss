@@ -41,6 +41,10 @@ body {
         a:hover {
             color: $color-borde-imagen !important;
         }
+        .active {
+            color: $color-logo!important;
+            font-weight: 500;
+        }
 }
 .card {
     width: 18rem;
